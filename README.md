@@ -11,7 +11,7 @@ make
 ## Set the permission
 `chmod 600 /opt/vpnserver/* && chmod 700 /opt/vpnserver/vpncmd && chmod 700 /opt/vpnserver/vpnserver`
 
-## init script copy this to the command line
+## Init script copy this to the command line
 `echo '#!/bin/sh
 DAEMON=/usr/local/vpnserver/vpnserver
 LOCK=/var/lock/subsys/vpnserver
