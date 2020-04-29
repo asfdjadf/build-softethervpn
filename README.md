@@ -36,11 +36,12 @@ exit 1
 esac
 exit 0' > /etc/init.d/vpnserver
 '
-mv vpnserver-init /etc/init.d/vpnserver
 
-chmod 755 /etc/init.d/vpnserver
+`mv vpnserver-init /etc/init.d/vpnserver`
 
-update-rc.d vpnserver defaults
+`chmod 755 /etc/init.d/vpnserver`
+
+`update-rc.d vpnserver defaults`
 
 ## start vpnserver
-/etc/init.d/vpnserver start
+`/etc/init.d/vpnserver start`
