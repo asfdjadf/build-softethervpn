@@ -34,8 +34,8 @@ $DAEMON start
 echo "Usage: $0 {start|stop|restart}"
 exit 1
 esac
-exit 0' > /etc/init.d/vpnserver
-'
+exit 0' > /etc/init.d/vpnserver`
+
 
 `mv vpnserver-init /etc/init.d/vpnserver`
 
